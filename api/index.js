@@ -27,9 +27,9 @@ mongoose
     console.log(err);
   });
 
-app.listen(3030, () => {
-  console.log("App is running on port 3030.");
-});
+//app.listen(3030, () => {
+  //console.log("App is running on port 3030.");
+//});
 
 app.use("/api/user", userRouter);
 app.use("/api/auth", authRouter);
@@ -50,3 +50,4 @@ app.use((err, req, res,next) => {
     message,
   });
 });
+export default app;
