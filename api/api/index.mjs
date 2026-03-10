@@ -1,4 +1,4 @@
-import * as authRouterModule from "../routes/auth.route.js";
+import * as authRouterModule from "../routes/auth.route.mjs";
 import * as userRouterModule from "../routes/user.route.js";
 import * as listingRouterModule from "../routes/listing.route.js";
 import express from "express";
