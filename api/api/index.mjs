@@ -1,6 +1,6 @@
-import * as authRouterModule from "../routes/auth.route.mjs";
-import * as userRouterModule from "../routes/user.route.js";
-import * as listingRouterModule from "../routes/listing.route.js";
+import authRouter from "../routes/auth.route.mjs";
+import userRouter from "../routes/user.route.mjs";
+import listingRouter from "../routes/listing.route.mjs";
 import express from "express";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
