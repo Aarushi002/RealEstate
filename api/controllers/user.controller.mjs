@@ -1,6 +1,6 @@
 import bcryptjs from 'bcryptjs'
-import User from '../models/user.model.js';
-import Listing from '../models/listing.model.js';
+import User from '../models/user.model.mjs';
+import Listing from '../models/listing.model.mjs';
 import errorHandler from '../utils/error.js';
 
 export const test = async (req, res) => {
