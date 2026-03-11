@@ -17,7 +17,10 @@ app.use(cookieParser());
 
 app.use(
   cors({
-    origin: "https://real-estate-5360tcl4e-aarushi-krishnas-projects.vercel.app",
+   origin: [
+  "https://real-estate-5360tcl4e-aarushi-krishnas-projects.vercel.app",
+  "https://real-estate-omega-indol.vercel.app"
+],
     credentials: true,
   })
 );
