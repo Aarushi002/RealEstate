@@ -15,6 +15,13 @@ const app = express();
 app.use(express.json());
 app.use(cookieParser());
 
+app.use(
+  cors({
+    origin: "https://real-estate-5360tcl4e-aarushi-krishnas-projects.vercel.app",
+    credentials: true,
+  })
+);
+
 const url = process.env.MONGO;
 
 if (!url) {
